@@ -1,6 +1,11 @@
-.web_header {
+/*.web_header {
       padding: var(--space-s) 0;
-  background: linear-gradient(rgba(215, 215, 223, 0.9), rgba(164, 164, 245, 0.9));
+  background: linear-gradient(rgba(50, 50, 145, 0.9), rgba(164, 164, 245, 0.9));*/
+
+  .web_header {
+    
+  background-color: lavender;  
+  padding: var(--space-s) 0;
 
 }
 
