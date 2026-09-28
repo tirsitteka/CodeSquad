@@ -10,4 +10,5 @@ This portfolio showcases some of the web development skills I am learning, inclu
 
 - index.html – Contains the structure and content of the website.
 - styles.css – Contains the styling for the website.
+- assets/ – Contains the images and icons used on the website.
 - README.md – Provides information about the project.
