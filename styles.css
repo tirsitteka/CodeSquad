@@ -1,27 +1,135 @@
-/*.web_header {
-      padding: var(--space-s) 0;
-  background: linear-gradient(rgba(50, 50, 145, 0.9), rgba(164, 164, 245, 0.9));*/
-
-  .web_header {
-    
-  background-color: lavender;  
-  padding: var(--space-s) 0;
-
+ 
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
 
 body {
+background: url("assets/background_image.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding-right:100px;
 
 }
 
-h1 {
+#hero {
+  
+  padding-bottom: 4px;
+  background-size: cover;
+  background-color: lavenderblush;  
+  padding: 10px;
+  margin: 10px 0;
+  margin-left: 100px;
+  text-align: center;
+
 
 }
 
-h2 {
+#about {
+    padding-bottom: 4px;
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    background-color: lavenderblush;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 100px;
+    text-align: left;
 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 18px;
+    
+}
+
+.about_photo {
+  width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-top: solid pink;
+    border-right: solid pink;
+    border-bottom: solid pink;
+    border-left: solid pink;
+       
+}
+
+.JobTitle {
+    font-size: 20px;
 
 }
 
-p {
+#work {
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
 
+.work_photo {
+    width: 200px;
+    vertical-align: bottom;
+    border-radius: 10px;
+    border-top: solid pink;
+    border-right: solid pink;
+    border-bottom: solid pink;
+    border-left: solid pink;
+
+}
+
+.work_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#more {
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.travel {
+  width: 45%;
+  margin-left: auto;
+}
+.greece_photo {
+ width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-top: solid pink;
+    border-right: solid pink;
+    border-bottom: solid pink;
+    border-left: solid pink;
+}
+
+.careers {
+  width: 45%;
+}
+
+#contact {
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: plum;
+}
+
+#footer {
+  padding: var(--space-l) var(--space-l);
+}
+
+
+.text_right {
+      text-align: right;
 }
