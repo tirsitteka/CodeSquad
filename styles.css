@@ -100,7 +100,7 @@ padding-right:100px;
   margin-left: auto;
 }
 .greece_photo {
- width: 200px;
+ width: 300px;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
@@ -132,4 +132,9 @@ button:hover {
 
 .text_right {
       text-align: right;
+}
+
+.click_message {
+    color: purple;
+    font-weight: bold;
 }
